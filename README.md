@@ -13,7 +13,7 @@ $ apm link
 ```
 
 # Change Log
-* 0.2.2 - Fixed the leading `.` in some of the cson files which prevent snippets to load properly
+* 0.2.2 - Fixed the missing leading `.` error in some of the files which prevent snippets to load properly
 
 # Contributing
 1. Fork it!
