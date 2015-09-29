@@ -1,0 +1,20 @@
+'text.html':
+  'Navbar':
+    'prefix': 'bs4-navbar'
+    'body': """
+      <nav class="navbar">
+        <a class="navbar-brand" href="#">${1:Brand}</a>
+        <ul class="nav navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">${2:Link} <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">${3:Link}</a>
+          </li>
+        </ul>
+      </nav>
+    """
+
+  'Navbar form':
+    'prefix': 'bs4-navbar-form'
+    'body': '<form class="form-inline navbar-form pull-right">\n$1\n</form>'

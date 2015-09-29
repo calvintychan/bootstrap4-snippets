@@ -1,0 +1,9 @@
+'.text.html':
+  'Figures':
+    'prefix': 'bs4-figures'
+    'body': """
+      <figure class="figure">
+        <img data-src="holder.js/400x300" class="img-rounded" alt="$1">
+        <figcaption class="figure-caption">$2</figcaption>
+      </figure>
+    """

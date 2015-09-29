@@ -1,0 +1,20 @@
+'text.html':
+  'Alert':
+    'prefix': 'bs4-alert'
+    'body': '<div class="alert alert-${1:success}" role="alert">$2</div>'
+
+  'Alert link':
+    'prefix': 'bs4-alert-link'
+    'body': '<div class="alert alert-${1:success}" role="alert">\n\t$2<a href="#" class="alert-link">${3:Link}</a>\n</div>\n'
+
+  'Alert link dismissable':
+    'prefix': 'bs4-alert-dismissible'
+    'body': """
+      <div class="alert alert-${1:warning} alert-dismissible fade in" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+          <span class="sr-only">Close</span>
+        </button>
+        $2
+      </div>
+    """

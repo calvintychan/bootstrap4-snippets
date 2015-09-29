@@ -1,0 +1,9 @@
+'text.html':
+  'Button close':
+    'prefix': 'bs4-btn-close'
+    'body': """
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+        <span class="sr-only">Close</span>
+      </button>
+    """

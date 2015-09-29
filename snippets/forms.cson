@@ -1,0 +1,35 @@
+'.text.html':
+  'Form group':
+    'prefix': 'bs4-form-group':
+    'body': """
+      <fieldset class="form-group">
+        <label for="$1">$2</label>
+        <input type="text" class="form-control" id="$1" placeholder="$4">
+      </fieldset>
+    """
+
+  'Form input':
+    'prefix': 'bs4-input-text'
+    'body': '<input type="text" class="form-control" id="$1" placeholder="$2">\n'
+
+  'Form checkbox':
+    'prefix': 'bs4-checkbox':
+    'body': """
+      <div class="checkbox">
+        <label>
+          <input id="$1" name="$2" value="$3" type="checkbox" ${4:checked}>
+          $2
+        </label>
+      </div>
+    """
+
+  'Form radio':
+    'prefix': 'bs4-radio':
+    'body': """
+      <div class="radio">
+        <label>
+          <input id="$1" name="$2" value="$3" type="radio" ${4:checked}>
+          $4
+        </label>
+      </div>
+    """

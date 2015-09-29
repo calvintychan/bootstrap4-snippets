@@ -1,0 +1,51 @@
+'.text.html':
+  'Button':
+    'prefix': 'bs4-btn'
+    'body': '<a class="btn btn-${1:primary}" href="#" role="button">$2</a>'
+
+  'Button outline':
+    'prefix': 'bs4-btn-outline'
+    'body': '<a class="btn btn-${1:primary}-outline" href="#" role="button">$2</a>'
+
+  'Button dropdown':
+    'prefix': 'bs4-btn-dropdown':
+    'body': """
+      <div class="btn-group">
+        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        ${1:Action}
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">$2</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">$3</a>
+        </div>
+      </div>
+    """
+
+  'Button split':
+    'prefix': 'bs4-btn-split':
+    'body': """
+      <div class="btn-group">
+        <button type="button" class="btn btn-danger">${1:Action}</button>
+        <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">$2</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">$3</a>
+        </div>
+      </div>
+    """
+
+  'Button group':
+    'prefix': 'bs4-btn-group'
+    'body': """
+      <div class="btn-group" role="group" aria-label="Button group">
+        <button type="button" class="btn btn-${1:primary}">$2</button>
+      </div>
+    """
+
+  'Button toolbar':
+    'prefix': 'bs4-btn-toolbar'
+    'body': '<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"></div>'
