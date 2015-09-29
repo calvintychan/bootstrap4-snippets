@@ -1,7 +1,7 @@
 {
   "title": "Bootstrap 4 Snippets",
   "name": "bootstrap4-snippets",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Bootstrap 4 snippets for Atom.",
   "author": "Calvin Chan <calvin@calvinchan.net>",
   "repository": {
