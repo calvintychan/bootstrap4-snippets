@@ -12,6 +12,9 @@ $ apm install
 $ apm link
 ```
 
+# Change Log
+* 0.2.2 - Fixed the leading `.` in some of the cson files which prevent snippets to load properly
+
 # Contributing
 1. Fork it!
 2. Create your feature branch: git checkout -b my-new-feature
