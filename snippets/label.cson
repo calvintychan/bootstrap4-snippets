@@ -1,4 +1,4 @@
-'text.html':
+'.text.html':
   'Label':
     'prefix': 'bs4-label'
     'body': '<span class="label label-${1:default}">$2</span>'

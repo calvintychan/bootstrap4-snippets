@@ -1,4 +1,4 @@
-'text.html':
+'.text.html':
   'Alert':
     'prefix': 'bs4-alert'
     'body': '<div class="alert alert-${1:success}" role="alert">$2</div>'

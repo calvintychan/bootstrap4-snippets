@@ -1,4 +1,4 @@
-'text.html':
+'.text.html':
   'Progress':
     'prefix': 'bs4-progress'
     'body': '<progress class="progress" value="${1:25}" max="100">${1:25}%</progress>'
