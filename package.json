@@ -1,0 +1,16 @@
+{
+  "title": "Bootstrap 4 Snippets",
+  "name": "bootstrap4-snippets",
+  "version": "0.0.1",
+  "description": "Bootstrap 4 snippets for Atom.",
+  "author": "Calvin Chan <calvin@calvinchan.net>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/calvintychan/bootstrap4-snippets.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {}
+}
