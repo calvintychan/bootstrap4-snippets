@@ -1,6 +1,6 @@
 '.text.html':
   'Modal':
-    'prefix': 'bs4-modal':
+    'prefix': 'bs4-modal'
     'body': """
       <div class="modal fade" id="$1" tabindex="-1" role="dialog" aria-labelledby="$2" aria-hidden="true">>
         <div class="modal-dialog" role="document">

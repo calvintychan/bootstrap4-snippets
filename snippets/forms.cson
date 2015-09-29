@@ -1,6 +1,6 @@
 '.text.html':
   'Form group':
-    'prefix': 'bs4-form-group':
+    'prefix': 'bs4-form-group'
     'body': """
       <fieldset class="form-group">
         <label for="$1">$2</label>
@@ -13,7 +13,7 @@
     'body': '<input type="text" class="form-control" id="$1" placeholder="$2">\n'
 
   'Form checkbox':
-    'prefix': 'bs4-checkbox':
+    'prefix': 'bs4-checkbox'
     'body': """
       <div class="checkbox">
         <label>
@@ -24,7 +24,7 @@
     """
 
   'Form radio':
-    'prefix': 'bs4-radio':
+    'prefix': 'bs4-radio'
     'body': """
       <div class="radio">
         <label>
