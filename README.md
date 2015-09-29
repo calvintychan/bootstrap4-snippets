@@ -1,8 +1,16 @@
 # Bootstrap 4 snippets for Atom editor
-This is a Bootstrap 4 snippets package for Atom. These snippets are prefixed with <code>bs4-*</code>
+This is a Bootstrap 4 snippets package for Atom. These snippets are prefixed with `bs4-*`
 
 # Install
-_TODO_
+Go to Atom > Preferences... then search for *Bootstrap 4 Snippets* in Packages tab.
+
+# Development
+```
+$ cd ~/.atom/packages
+$ git clone https://github.com/calvintychan/bootstrap4-snippets.git
+$ apm install
+$ apm link
+```
 
 # Contributing
 1. Fork it!
@@ -12,4 +20,4 @@ _TODO_
 5. Submit a pull request :smile:
 
 # License
-* MIT
+* [MIT](https://github.com/calvintychan/bootstrap4-snippets/blob/master/LICENSE.md)
